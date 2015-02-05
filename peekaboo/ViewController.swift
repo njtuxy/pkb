@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+//    int(){
+//        index = 0
+//    }
+
     @IBOutlet weak var myPageControl: UIPageControl!
     
     @IBOutlet weak var myColorView: UIView!
+    
+    var index: NSInteger = 0;
     
     let myColors = [
         UIColor.blackColor(),
@@ -28,9 +35,10 @@ class ViewController: UIViewController {
     ]
  
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        configMyPageControl()
+        configMyPageControl(0)
         pageControlValueDidChange()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -40,9 +48,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func configMyPageControl(){
+    func configMyPageControl(index: NSInteger){
         myPageControl.numberOfPages = myColors.count
-        myPageControl.currentPage = 0
+        myPageControl.currentPage = index
         myPageControl.tintColor = UIColor.blueColor()
         myPageControl.pageIndicatorTintColor = UIColor.greenColor()
         myPageControl.currentPageIndicatorTintColor = UIColor.purpleColor()
@@ -55,5 +63,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func myButton(){
+        index++;
+        configMyPageControl(index)
+        pageControlValueDidChange()
+    }
 }
 
