@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7272F86C-572E-4EC1-9A0B-B55BB22FF83E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>peekaboo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C3AD1CFB9344ECA5FE7EE5ED87880EEFC28BAC70</key>
+		<string>https://github.com/njtuxy/pkb.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>peekaboo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C3AD1CFB9344ECA5FE7EE5ED87880EEFC28BAC70</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/njtuxy/pkb.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C3AD1CFB9344ECA5FE7EE5ED87880EEFC28BAC70</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C3AD1CFB9344ECA5FE7EE5ED87880EEFC28BAC70</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pkb</string>
+		</dict>
+	</array>
+</dict>
+</plist>
